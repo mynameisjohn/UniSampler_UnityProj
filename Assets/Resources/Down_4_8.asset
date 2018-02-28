@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33430e4848bb9a34bbad8c63eeacbd64, type: 3}
-  m_Name: Down_4_4
+  m_Name: Down_4_8
   m_EditorClassIdentifier: 
-  m_aNoteData: 00000001000100000100000000000100
-  m_eStepDur: 5
-  m_nMinOctave: 3
+  m_aNoteData: 00000001000001000001000001000000
+  m_eStepDur: 4
+  m_nMinOctave: 5
   m_nOctaveCount: 1
   m_nNotesPerOctave: 4
   m_nStepCount: 4
