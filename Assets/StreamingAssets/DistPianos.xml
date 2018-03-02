@@ -1,0 +1,36 @@
+<global loop="true">
+  <group chan="0" attack="0.05" release=".5" default_path="samples/cmpd5l" note_offset="-12">
+    <region sample="cdf_29.flac" tune_offset="7" lokey="0" hikey="18" keycenter="17"/>
+    <region sample="cdf_33.flac" tune_offset="10" lokey="19" hikey="22" keycenter="21"/>
+    <region sample="cdf_37.flac" tune_offset="8" lokey="23" hikey="26" keycenter="25"/>
+    <region sample="cdf_41.flac" tune_offset="0" lokey="27" hikey="30" keycenter="29"/>
+    <region sample="cdf_45.flac" tune_offset="8" lokey="31" hikey="34" keycenter="33"/>
+    <region sample="cdf_49.flac" tune_offset="0" lokey="35" hikey="38" keycenter="37"/>
+    <region sample="cdf_53.flac" tune_offset="0" lokey="39" hikey="42" keycenter="41"/>
+    <region sample="cdf_57.flac" tune_offset="0" lokey="43" hikey="46" keycenter="45"/>
+    <region sample="cdf_61.flac" tune_offset="-2" lokey="47" hikey="50" keycenter="49"/>
+    <region sample="cdf_65.flac" tune_offset="0" lokey="51" hikey="54" keycenter="53"/>
+    <region sample="cdf_69.flac" tune_offset="-2" lokey="55" hikey="58" keycenter="57"/>
+    <region sample="cdf_73.flac" tune_offset="-4" lokey="59" hikey="62" keycenter="61"/>
+    <region sample="cdf_77.flac" tune_offset="-5" lokey="63" hikey="66" keycenter="65"/>
+    <region sample="cdf_81.flac" tune_offset="-6" lokey="67" hikey="70" keycenter="69"/>
+    <region sample="cdf_85.flac" tune_offset="-8" lokey="71" hikey="73" keycenter="73"/>
+    <region sample="cdf_89.flac" tune_offset="-10" lokey="74" hikey="77" keycenter="77"/>
+    <region sample="cdf_93.flac" tune_offset="-12" lokey="78" hikey="82" keycenter="81"/>
+    <region sample="cdf_97.flac" tune_offset="-20" lokey="83" hikey="86" keycenter="85"/>
+    <region sample="cdf_101.flac" tune_offset="-16" lokey="87" hikey="115" keycenter="89"/>
+
+    <effect type="filter" fil_type="lpf_2p" resonance="5" cutoff="350">
+      <LFO param="cents" depth="550" period="4" />
+      <LFO param="resonance" depth="20" period="8" />
+    </effect>
+
+    <effect type="drive" shape="0.1" tone="2560">
+      <LFO param="shape" depth="0.15" period="4" />
+    </effect>
+
+  </group>
+  <effect type="filter" cutoff="420"/>
+  <effect type="reverb" space="hall_large" wet="1" dry="1" damp="0" size="0.5" tone="2560"/>
+  <pan_curve period="0.25" delta="0.25" />
+</global>

@@ -1,0 +1,40 @@
+<global one_shot="true" attack="0.05" release="0.5" default_path="samples/koto">
+    <group>
+        <region sample="koto 3.flac" tune_offset="14" lokey="31" hikey="44" keycenter="42"/>
+        <region sample="koto 2.flac" tune_offset="9" lokey="45" hikey="52" keycenter="50"/>
+        <region sample="koto 1.flac" tune_offset="20" lokey="53" hikey="62" keycenter="55"/>
+        <region sample="koto 5.flac" tune_offset="47" lokey="63" hikey="67" keycenter="60"/>
+        <region sample="koto 4.flac" tune_offset="36" lokey="68" hikey="72" keycenter="64"/>
+    </group>
+	
+	<!-- Koto strum groups-->
+	<!-- A2 or B2 on 60-->
+	<group chan="1" key="60">
+        <region sample="koto 2.flac" tune_offset="9" maxProb="0.5" note_offset="-5"/>
+        <region sample="koto 2.flac" tune_offset="9" minProb="0.5" note_offset="-3"/>
+	</group>
+	<!-- C#3 or D3 on 61, delayed-->
+	<group chan="1" key="61">
+		<region sample="koto 2.flac" tune_offset="9" maxProb="0.5" note_offset="-1" delay="0.125"/>
+		<region sample="koto 2.flac" tune_offset="9" minProb="0.5" note_offset="0"  delay="0.125"/>
+	</group>
+	<!-- E3 on 62, 63-->
+	<group chan="1" sample="koto 2.flac" tune_offset="9" note_offset="2">
+		<region key="62" maxProb="0.5" delay="0.125"/>
+		<region key="63" maxProb="0.5" delay="0.25"/>
+	</group>
+  <!-- F#3 on 62, 63-->
+  <group chan="1" sample="koto 1.flac" tune_offset="9" note_offset="-1">
+    <region key="62" minProb="0.5" delay="0.125"/>
+    <region key="63" minProb="0.5" delay="0.25"/>
+  </group>
+  <!-- A3 or B3-->
+  <group chan="1" key="64">
+    <region sample="koto 1.flac" tune_offset="20" maxProb="0.5" note_offset="2" delay="0.25"/>
+    <region sample="koto 1.flac" tune_offset="20" minProb="0.5" note_offset="4" delay="0.25"/>
+  </group>
+  
+	<effect type="filter" cutoff="420"/>
+	<effect type="reverb" space="hall_large" wet="1" dry="1" damp="0" size="0.5" tone="2560"/>
+	<pan_curve period="4" delta="0.25" />
+</global>

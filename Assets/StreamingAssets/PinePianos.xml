@@ -1,0 +1,77 @@
+<global loop="true">
+    <group chan="0" attack="0.05" release=".5" default_path="samples/cmpd5l" note_offset="-12">
+        <region sample="cdf_29.flac" tune_offset="7" lokey="0" hikey="18" keycenter="17"/>
+        <region sample="cdf_33.flac" tune_offset="10" lokey="19" hikey="22" keycenter="21"/>
+        <region sample="cdf_37.flac" tune_offset="8" lokey="23" hikey="26" keycenter="25"/>
+        <region sample="cdf_41.flac" tune_offset="0" lokey="27" hikey="30" keycenter="29"/>
+        <region sample="cdf_45.flac" tune_offset="8" lokey="31" hikey="34" keycenter="33"/>
+        <region sample="cdf_49.flac" tune_offset="0" lokey="35" hikey="38" keycenter="37"/>
+        <region sample="cdf_53.flac" tune_offset="0" lokey="39" hikey="42" keycenter="41"/>
+        <region sample="cdf_57.flac" tune_offset="0" lokey="43" hikey="46" keycenter="45"/>
+        <region sample="cdf_61.flac" tune_offset="-2" lokey="47" hikey="50" keycenter="49"/>
+        <region sample="cdf_65.flac" tune_offset="0" lokey="51" hikey="54" keycenter="53"/>
+        <region sample="cdf_69.flac" tune_offset="-2" lokey="55" hikey="58" keycenter="57"/>
+        <region sample="cdf_73.flac" tune_offset="-4" lokey="59" hikey="62" keycenter="61"/>
+        <region sample="cdf_77.flac" tune_offset="-5" lokey="63" hikey="66" keycenter="65"/>
+        <region sample="cdf_81.flac" tune_offset="-6" lokey="67" hikey="70" keycenter="69"/>
+        <region sample="cdf_85.flac" tune_offset="-8" lokey="71" hikey="73" keycenter="73"/>
+        <region sample="cdf_89.flac" tune_offset="-10" lokey="74" hikey="77" keycenter="77"/>
+        <region sample="cdf_93.flac" tune_offset="-12" lokey="78" hikey="82" keycenter="81"/>
+        <region sample="cdf_97.flac" tune_offset="-20" lokey="83" hikey="86" keycenter="85"/>
+        <region sample="cdf_101.flac" tune_offset="-16" lokey="87" hikey="115" keycenter="89"/>
+    </group>
+	
+    <group chan="1" attack="0.05" release="1" default_path="samples/nylonguitar">
+        <region sample="guit #2 e2.flac" lokey="36" hikey="42" keycenter="52"/>
+        <region sample="guit #2 e2.flac" lokey="43" hikey="52" keycenter="52"/>
+        <region sample="guit #2 g2.flac" tune_offset="9" lokey="53" hikey="54" keycenter="55"/>
+        <region sample="guit #2 g2.flac" lokey="55" hikey="55" keycenter="55"/>
+        <region sample="guit #2 a2.flac" lokey="56" hikey="56" keycenter="57"/>
+        <region sample="guit #2 a2.flac" lokey="57" hikey="58" keycenter="57"/>
+        <region sample="guit #2 c3.flac" lokey="59" hikey="60" keycenter="60"/>
+        <region sample="guit #2 d3.flac" lokey="61" hikey="61" keycenter="62"/>
+        <region sample="guit #2 d3.flac" lokey="62" hikey="63" keycenter="62"/>
+        <region sample="guit #2 f3.flac" lokey="64" hikey="65" keycenter="65"/>
+        <region sample="guit #2 g3.flac" lokey="66" hikey="66" keycenter="67"/>
+        <region sample="guit #2 g3.flac" lokey="67" hikey="67" keycenter="67"/>
+        <region sample="guit #2 a3.flac" lokey="68" hikey="68" keycenter="69"/>
+        <region sample="guit #2 a3.flac" lokey="69" hikey="70" keycenter="69"/>
+        <region sample="guit #2 b3.flac" lokey="71" hikey="73" keycenter="71"/>
+        <region sample="guit #2 e4.flac" lokey="74" hikey="78" keycenter="76"/>
+        <region sample="guit #2 a4.flac" lokey="79" hikey="82" keycenter="81"/>
+        <region sample="guit #2 b4.flac" lokey="83" hikey="85" keycenter="83"/>
+        <region sample="guit #2 d4.flac" lokey="86" hikey="87" keycenter="86"/>
+        <region sample="guit #2 d4.flac" lokey="88" hikey="108" keycenter="86"/>
+        <region sample="guit #1 e2.flac" lokey="36" hikey="53" keycenter="52"/>
+        <region sample="guit #1 g2.flac" lokey="54" hikey="54" keycenter="55"/>
+        <region sample="guit #1 g2.flac" lokey="55" hikey="56" keycenter="55"/>
+        <region sample="guit #1 a2.flac" lokey="57" hikey="59" keycenter="57"/>
+        <region sample="guit #1 f3.flac" lokey="65" hikey="65" keycenter="65"/>
+        <region sample="guit #1 d4.flac" lokey="74" hikey="74" keycenter="74"/>
+        <region sample="guit #1 c3.flac" lokey="60" hikey="61" keycenter="60"/>
+        <region sample="guit #1 d3.flac" lokey="62" hikey="63" keycenter="62"/>
+        <region sample="guit #1 d3.flac" lokey="64" hikey="64" keycenter="62"/>
+        <region sample="guit #1 g3.flac" lokey="66" hikey="66" keycenter="67"/>
+        <region sample="guit #1 g3.flac" lokey="67" hikey="68" keycenter="67"/>
+        <region sample="guit #1 a3.flac" lokey="69" hikey="70" keycenter="69"/>
+        <region sample="guit #1 b3.flac" lokey="71" hikey="71" keycenter="71"/>
+        <region sample="guit #1 b3.flac" lokey="72" hikey="73" keycenter="71"/>
+        <region sample="guit #1 e4.flac" lokey="75" hikey="75" keycenter="76"/>
+        <region sample="guit #1 e4.flac" lokey="76" hikey="76" keycenter="76"/>
+        <region sample="guit #1 g4.flac" lokey="77" hikey="79" keycenter="79"/>
+        <region sample="guit #1 a4.flac" lokey="80" hikey="80" keycenter="81"/>
+        <region sample="guit #1 a4.flac" lokey="81" hikey="120" keycenter="81"/>
+    </group>
+	
+	<group one_shot="true" chan="2" attack="0.05" release="0.5" default_path="samples/koto">
+        <region sample="koto 3.flac" tune_offset="14" lokey="31" hikey="44" keycenter="42"/>
+        <region sample="koto 2.flac" tune_offset="9" lokey="45" hikey="52" keycenter="50"/>
+        <region sample="koto 1.flac" tune_offset="20" lokey="53" hikey="62" keycenter="55"/>
+        <region sample="koto 5.flac" tune_offset="47" lokey="63" hikey="67" keycenter="60"/>
+        <region sample="koto 4.flac" tune_offset="36" lokey="68" hikey="72" keycenter="64"/>
+	 </group>
+	 
+	<effect type="filter" cutoff="420"/>
+	<effect type="reverb" space="hall_large" wet="1" dry="1" damp="0" size="0.5" tone="2560"/>
+	<pan_curve period="0.25" delta="0.25" />
+</global>

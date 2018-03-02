@@ -1,0 +1,16 @@
+<global>
+    <group attack="0.01" release="0.1" default_path="samples/fingered bass" poly="1">
+	
+        <region sample="jb1_fwfng_med_d1_02.flac" tune_offset="-4" lokey="34" hikey="39" keycenter="38"/>
+        <region sample="jb1_fwfng_med_f1_01.flac" tune_offset="-11" lokey="40" hikey="41" keycenter="41"/>
+        <region sample="jb1_fwfng_med_g1_02.flac" tune_offset="-8" lokey="42" hikey="44" keycenter="43"/>
+        <region sample="jb1_fwfng_med_bb1_05.flac" tune_offset="-17" lokey="45" hikey="46" keycenter="46"/>
+        <region sample="jb1_fwfng_med_c2_01.flac" tune_offset="3" lokey="47" hikey="49" keycenter="48"/>
+        <region sample="jb1_fwfng_med_eb2_03.flac" tune_offset="5" lokey="50" hikey="51" keycenter="51"/>
+        <region sample="jb1_fwfng_med_f2_01.flac" tune_offset="5" lokey="52" hikey="54" keycenter="53"/>
+        <region sample="jb1_fwfng_med_ab2_02.flac" tune_offset="4" lokey="55" hikey="59" keycenter="56"/>
+	<effect type="drive" shape="0.5"/>
+   <effect type="filter" fil_type="hshelf" resonance="1" gain="-12" cutoff="250"/>
+	 </group>
+	
+</global>

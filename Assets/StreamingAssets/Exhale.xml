@@ -1,0 +1,18 @@
+<global loop="true">
+    <group chan="0" attack="0.05" release=".5" default_path="samples/cmpd5l" note_offset="-12">
+        <region sample="GhostlyNotes_50.flac" key="50" />
+        <region sample="GhostlyNotes_52.flac" key="52" />
+        <region sample="GhostlyNotes_54.flac" key="54" />
+        <region sample="GhostlyNotes_57.flac" key="57" />
+        <region sample="GhostlyNotes_59.flac" key="59" />
+        <region sample="GhostlyNotes_62.flac" key="62" />
+        <region sample="GhostlyNotes_64.flac" key="64" />
+        <region sample="GhostlyNotes_66.flac" key="66" />
+        <region sample="GhostlyNotes_69.flac" key="69" />
+        <region sample="GhostlyNotes_71.flac" key="71" />
+        <region sample="GhostlyNotes_74.flac" key="74" />
+        <region sample="GhostlyNotes_76.flac" key="76" /> 
+    </group>
+	 
+	<pan_curve period="0.25" delta="0.25" />
+</global>

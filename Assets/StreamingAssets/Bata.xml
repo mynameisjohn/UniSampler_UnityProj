@@ -1,0 +1,45 @@
+<global one_shot="true" default_path="samples/Bata Ambience">
+    <group>
+        <region sample="lo - mute - 002.flac" key_d="85" hivel="76"/>
+        <region sample="lo - mute 2 - 002.flac" key_d="85" lovel="77"/>
+        <region sample="lo - mute - 003.flac" key_d="86" hivel="76"/>
+        <region sample="lo - mute 2 - 003.flac" key_d="86" lovel="77"/>
+        <region sample="lo - mute - 004.flac" key_d="87" hivel="76"/>
+        <region sample="lo - mute 2 - 004.flac" key_d="87" lovel="77"/>
+        <region sample="lo - slap - 001.flac" key_d="88"/>
+        <region sample="lo - slap - 002.flac" key_d="88"/>
+        <region sample="mid - open - 001.flac" key_d="89" hivel="39"/>
+        <region sample="mid - open 2 - 001.flac" key_d="89" lovel="40" hivel="52"/>
+        <region sample="mid - open - 002.flac" key_d="89" lovel="53" hivel="66"/>
+        <region sample="mid - open 2 - 002.flac" key_d="89" lovel="67" hivel="79"/>
+        <region sample="mid - open - 003.flac" key_d="89" lovel="80" hivel="92"/>
+        <region sample="mid - open 2 - 003.flac" key_d="89" lovel="93" hivel="105"/>
+        <region sample="mid - open - 004.flac" key_d="89" lovel="106" hivel="118"/>
+        <region sample="mid - open 2 - 004.flac" key_d="89" lovel="119"/>
+        <region sample="hi - mute - 003.flac" key_d="90" hivel="76"/>
+        <region sample="hi - mute 2 - 003.flac" key_d="90" lovel="77"/>
+	 </group>
+	 
+	<!-- Random exclusive region-->
+    <group chan="1" rnd_ex="true" key_d="60">
+        <region sample="lo - mute - 002.flac"/>
+        <region sample="lo - mute 2 - 002.flac"/>
+        <region sample="lo - mute - 003.flac"/>
+        <region sample="lo - mute 2 - 003.flac"/>
+        <region sample="lo - mute - 004.flac"/>
+        <region sample="lo - mute 2 - 004.flac"/>
+        <region sample="lo - slap - 001.flac"/>
+        <region sample="lo - slap - 002.flac"/>
+        <region sample="mid - open - 001.flac"/>
+        <region sample="mid - open 2 - 001.flac"/>
+        <region sample="mid - open - 002.flac"/>
+        <region sample="mid - open 2 - 002.flac"/>
+        <region sample="mid - open - 003.flac"/>
+        <region sample="mid - open 2 - 003.flac"/>
+        <region sample="mid - open - 004.flac"/>
+        <region sample="mid - open 2 - 004.flac"/>
+        <region sample="hi - mute - 003.flac"/>
+        <region sample="hi - mute 2 - 003.flac"/>
+	 </group>
+	 
+</global>
