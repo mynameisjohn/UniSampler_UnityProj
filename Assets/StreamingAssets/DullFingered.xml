@@ -10,7 +10,7 @@
         <region sample="jb1_fwfng_med_f2_01.flac" tune_offset="5" lokey="52" hikey="54" keycenter="53"/>
         <region sample="jb1_fwfng_med_ab2_02.flac" tune_offset="4" lokey="55" hikey="59" keycenter="56"/>
 	<effect type="drive" shape="0.5"/>
-   <effect type="filter" fil_type="hshelf" resonance="1" gain="-12" cutoff="250"/>
 	 </group>
+   <effect type="filter" fil_type="hshelf" resonance="1" gain="-12" cutoff="250"/>
 	
 </global>
