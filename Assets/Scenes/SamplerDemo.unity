@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 410132339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ffe416f48785834bbf4a502423adfc0, type: 3}
+  m_Script: {fileID: 11500000, guid: c02b7caf65065e14ab2eb0d1babc93ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   StartPlayers: 1
@@ -200,7 +200,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -224,7 +224,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &410132342
 Transform:
   m_ObjectHideFlags: 0
@@ -247,10 +247,9 @@ GameObject:
   m_Component:
   - component: {fileID: 646514969}
   - component: {fileID: 646514968}
+  - component: {fileID: 646514970}
   - component: {fileID: 646514967}
   - component: {fileID: 646514966}
-  - component: {fileID: 646514970}
-  - component: {fileID: 646514971}
   m_Layer: 0
   m_Name: Piano_Guitar
   m_TagString: Untagged
@@ -264,14 +263,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 646514965}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b42a92bc9deb2f49b848b7ea6e6fe98, type: 3}
+  m_Script: {fileID: 11500000, guid: 5af6c417d0bff3442a596585e9dd92f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sequence: {fileID: 11400000, guid: adc9ab51afb04dc4c877b0bf7e31f5a7, type: 2}
+  Sequence: {fileID: 11400000, guid: 0fbfdd9f325584f4caf228f052242a5e, type: 2}
   NoteSet: {fileID: 11400000, guid: 98ef1e358641401409e346aeeefeb355, type: 2}
-  SequenceChannel: 0
+  SequenceChannel: 1
   Sampler: {fileID: 0}
 --- !u!114 &646514967
 MonoBehaviour:
@@ -281,11 +280,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 646514965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d69da60399251043916dd5d23bf23b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 5af6c417d0bff3442a596585e9dd92f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: PinePianos.xml
-  Volume: 1
+  Sequence: {fileID: 11400000, guid: adc9ab51afb04dc4c877b0bf7e31f5a7, type: 2}
+  NoteSet: {fileID: 11400000, guid: 98ef1e358641401409e346aeeefeb355, type: 2}
+  SequenceChannel: 0
+  Sampler: {fileID: 0}
 --- !u!82 &646514968
 AudioSource:
   m_ObjectHideFlags: 0
@@ -385,50 +386,24 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 646514965}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b42a92bc9deb2f49b848b7ea6e6fe98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sequence: {fileID: 11400000, guid: 0fbfdd9f325584f4caf228f052242a5e, type: 2}
-  NoteSet: {fileID: 11400000, guid: 98ef1e358641401409e346aeeefeb355, type: 2}
-  SequenceChannel: 1
-  Sampler: {fileID: 0}
---- !u!114 &646514971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 646514965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fd16964823a9754289a003eb82eb803, type: 3}
+  m_Script: {fileID: 11500000, guid: 462f6220a19bc49439529260ec4757fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sampler: {fileID: 0}
-  NoteSet: {fileID: 11400000, guid: 98ef1e358641401409e346aeeefeb355, type: 2}
-  OctaveMin: 5
-  OctaveMax: 6
-  MinVelocity: 49
-  MaxVelocity: 78
-  Channel: 1
-  Quantize: 1
-  RandomExclusive: 1
-  Key: 273
-  ixNote: -1
-  NoteDur: 9
---- !u!1 &798097238
+  FileName: PinePianos.xml
+  Volume: 1
+--- !u!1 &1658411471
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 798097242}
-  - component: {fileID: 798097241}
-  - component: {fileID: 798097240}
-  - component: {fileID: 798097239}
-  - component: {fileID: 798097243}
+  - component: {fileID: 1658411475}
+  - component: {fileID: 1658411474}
+  - component: {fileID: 1658411473}
+  - component: {fileID: 1658411472}
   m_Layer: 0
   m_Name: Bass
   m_TagString: Untagged
@@ -436,40 +411,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &798097239
+--- !u!114 &1658411472
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798097238}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1658411471}
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b42a92bc9deb2f49b848b7ea6e6fe98, type: 3}
+  m_Script: {fileID: 11500000, guid: 5af6c417d0bff3442a596585e9dd92f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sequence: {fileID: 11400000, guid: e1a4e085e1b9607428acdbb77a2f8a93, type: 2}
   NoteSet: {fileID: 11400000, guid: 98ef1e358641401409e346aeeefeb355, type: 2}
   SequenceChannel: 0
   Sampler: {fileID: 0}
---- !u!114 &798097240
+--- !u!114 &1658411473
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798097238}
+  m_GameObject: {fileID: 1658411471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d69da60399251043916dd5d23bf23b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 462f6220a19bc49439529260ec4757fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: DullFingered.xml
-  Volume: 0.47
---- !u!82 &798097241
+  Volume: 1
+--- !u!82 &1658411474
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798097238}
+  m_GameObject: {fileID: 1658411471}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -531,7 +506,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -544,38 +519,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!4 &798097242
+--- !u!4 &1658411475
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798097238}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1658411471}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &798097243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798097238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73924fb7582673429b0d51cae31c561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sampler: {fileID: 0}
-  Note: 38
-  MinVelocity: 64
-  MaxVelocity: 64
-  Channel: 0
-  Quantize: 1
-  Key: 32
-  NoteDur: 6
 --- !u!1 &1720294878
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +595,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
